@@ -7,8 +7,8 @@ Recomment to use Eclipse.
 
 ## Usability
 
-Please reaplace config data for use.
-Use testng.xml files to run tests. (Run As / TestNG Suite)
+ Please reaplace config data for use.<br>
+ Use testng.xml files to run tests. (Run As / TestNG Suite)
 
 
 
