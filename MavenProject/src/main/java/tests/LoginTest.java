@@ -45,11 +45,10 @@ public class LoginTest {
 	
 	@Test
 	public void should_Not_logIN_When_UserPasswordIsEmpty() throws InterruptedException {		
-		XLSXreader reader = new XLSXreader("test-data\\example.xlsx");
-		
-		login.loginMethod(utils.getUserName(), reader.getItem("password", 0));
-
-		Assert.assertEquals(login.getErrorMessage().getText(), "Incorrect value: Invalid login or password.");
+	XLSXreader reader = new XLSXreader("test-data\\bad_passwords.xlsx");
+		for(int i = 0; i <reader.size(); i++){
+			login.loginMethod(reader.getItem("Password", i), reader.getItem("Password", i));
+			  Assert.assertEquals(login.getErrorMessage().getText(), "Incorrect value: Invalid login or password.");
 
 	}
 	
