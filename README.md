@@ -1,4 +1,4 @@
-# Selenium-Java
+# Selenium-Java-Project
 
 This project is made to learn Java TestNG framework.
 
