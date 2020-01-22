@@ -3,7 +3,7 @@
 This project is made to learn Java TestNG framework.
 
 ## Preferences
-Recomment to use with Eclipse.
+Recomment to use with Eclipse. ([Download](https://www.eclipse.org/downloads/))
 
 ## Usability
 
